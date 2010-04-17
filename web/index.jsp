@@ -15,5 +15,19 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+<%
+String url = "jdbc:mysql://localhost:3306/SGCP";
+String user = "root";
+String pass = "1234";
+
+try {
+    Class.forName("com.mysql.jdbc.Driver");
+    Connection con = DriverManager.getConnection(url,user,pass);
+}
+catch (ClassNotFoundException e){
+    System.out.println("Classe não encontrada");
+}
+
+%>
     </body>
 </html>
