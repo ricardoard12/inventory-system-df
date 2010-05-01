@@ -10,6 +10,6 @@
         <action name="criaUsuario" class="CriaUsuario">
             <result>/CriaUsuario.jsp</result>
         </action>
-        <!-- Add actions here -->
+        <!-- Add actions here --> 
     </package>
 </struts>
