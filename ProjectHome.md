@@ -1,0 +1,1 @@
+sistema de estoque para estudo onde possibilita o desenvolvimento pessoal no desenvolvimento de sistema.
